@@ -54,7 +54,7 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
       </View>
 
       <View style={{ paddingTop: spacing.xxl }}>
-        <Text style={styles.title}> Focusing on:</Text>
+        <Text style={styles.title}> Focusing on: </Text>
         <Text style={styles.task}>{focusSubject}</Text>
       </View>
 
@@ -108,9 +108,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   buttonwrapper: {
-    flex: 0.3,
+    flex: 0.4,
     flexDirection: 'row',
-    padding: spacing.sm,
+    padding: spacing.md,
     justifyContent: 'center',
     alignItems: 'center',
   },
